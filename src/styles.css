@@ -19,6 +19,20 @@
  */
 
 @theme inline {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --color-navy: #0d1b2a;
+  --color-navy-2: #1b263b;
+  --color-steel: #415a77;
+  --color-accent: #3b82f6;
+  --color-surface: #ffffff;
+  --color-canvas: #f8fafc;
+  --color-ink: #0f172a;
+  --color-ink-muted: #64748b;
+  --color-rule: #e2e8f0;
+  --color-success: #10b981;
+  --color-warn: #f59e0b;
+  --color-danger: #ef4444;
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
