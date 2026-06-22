@@ -85,6 +85,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "SpareTrack — Enterprise Spare Parts Visibility & Lifecycle Management" },
+      { name: "twitter:title", content: "SpareTrack — Enterprise Spare Parts Visibility & Lifecycle Management" },
+      { name: "description", content: "SpareTrack is an enterprise platform for spare parts visibility and lifecycle management." },
+      { property: "og:description", content: "SpareTrack is an enterprise platform for spare parts visibility and lifecycle management." },
+      { name: "twitter:description", content: "SpareTrack is an enterprise platform for spare parts visibility and lifecycle management." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1ab4890f-99f7-48b3-8ba5-56b8ebd470ea/id-preview-d2412065--4501b48d-4a75-436d-bff7-eb258c0279ad.lovable.app-1782122289739.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1ab4890f-99f7-48b3-8ba5-56b8ebd470ea/id-preview-d2412065--4501b48d-4a75-436d-bff7-eb258c0279ad.lovable.app-1782122289739.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
