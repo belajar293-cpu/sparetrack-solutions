@@ -43,6 +43,7 @@ All copy written exactly per brief; expanded only where the brief gave a list (e
 ## SEO / head
 
 `Route.head()` sets:
+
 - title "SpareTrack — Enterprise Spare Parts Visibility & Lifecycle Management"
 - description ≤160 chars
 - og:title, og:description, og:type=website, twitter:card=summary_large_image
